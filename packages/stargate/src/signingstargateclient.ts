@@ -367,7 +367,7 @@ export class SigningStargateClient extends StargateClient {
     };
     const memo = "";
 
-    const msg: AminoMsg = {
+    const msg: MsgSignData = {
       type: "sign/MsgSignData",
       value: {
         signer: signerAddress,
